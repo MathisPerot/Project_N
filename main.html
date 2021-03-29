@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project_N</title> 
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div id="title_zone">
+            Project_N
+        </div>
+
+        <div id="body">
+            
+            <image src="carte_1.png" width="20%" id="passcard-1"></image>
+
+            <image>
+                    
+            </image>
+            <image>
+                    
+            </image>
+            <image>
+                    
+            </image>
+            <image>
+                    
+            </image>
+            <image>
+                    
+            </image>
+            <div id="dialog_zone">
+                
+                <div id="loli">
+                    
+                </div>
+
+                <div id="text">
+                    <div id="bouton">
+                        on test le bouton
+                    </div>
+                </div>
+
+            </div>
+
+            
+            
+        </div>
+        <footer>
+            <div id="action_bar">
+                
+                
+                <image>
+                    
+                </image>
+                <image>
+                    
+                </image>
+                <image>
+                    
+                </image>
+                <image>
+                    
+                </image>
+                <image>
+                    
+                </image>
+                <image>
+                    
+                </image>
+                <image>
+                    
+                </image>
+                <image>
+                    
+                </image>
+            </div>
+        </footer>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        var bgModifier = $("#body");
+
+        function bgimage(image){
+			    if (image == "destock"){
+					bgModifier.css("background-image", "url('destock.png')");
+				}else if (image == "piece1"){
+					bgModifier.css("background-image", "url('piece1.png')");;
+				}else if (image == "piece2"){
+					bgModifier.css("background-image", "url('piece2.png')");
+				}
+			}
+    </script>
+</html>
